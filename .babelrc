@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "styled-components",
+    "syntax-dynamic-import"
+  ],
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >= 7"
+          ]
+        }
+      }
+    ]
+  ]
+}

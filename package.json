@@ -1,12 +1,11 @@
 {
-  "name": "wp2",
+  "name": "react-reselect-ramda",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "watch": "npm run build -- --watch",
-    "build": "webpack",
-    "build:prod": "NODE_ENV=production npm run build"
+    "watch": "webpack -- --watch",
+    "build": "NODE_ENV=production webpack"
   },
   "dependencies": {
     "ramda": "^0.23.0",

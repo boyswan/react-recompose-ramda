@@ -1,3 +1,3 @@
 export default fn => (state, action) => {
-	return fn[action.type](action, state)(state) || (x => x => x)
+  return fn[action.type](action, state)(state) || (x => x => x)
 }
